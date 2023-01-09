@@ -1,0 +1,4 @@
+Sitemap: https://cocheraselectricastorreon.com.mx/sitemap.xml
+
+User-agent: *
+Allow: /

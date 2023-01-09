@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Cako";
+    src: url("/public/fonts/Cako-Black.woff2") format("woff2"),
+      url("/public/fonts/Cako-Black.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Cardo";
+    src: url("/public/fonts/Cardo.woff2") format("woff2"),
+      url("/public/fonts/Cardo.woff") format("woff");
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    @apply font-title font-black leading-none;
+  }
+
+  p,
+  a {
+    @apply font-text font-normal;
+  }
+
+  span {
+    @apply font-text font-normal;
+  }
+
+  h1 {
+    @apply text-5 xl:text-11;
+  }
+
+  h2 {
+    @apply text-4 xl:text-9;
+  }
+
+  h3 {
+    @apply text-3 xl:text-7;
+  }
+
+  h4 {
+    @apply text-3 xl:text-5;
+  }
+
+  p {
+    @apply text-2 xl:text-3;
+  }
+}
