@@ -12,7 +12,9 @@ module.exports = {
     },
 
     colors: {
-      primary_super: "#0064DF",
+      green: "#2A3325",
+      black: "#202020",
+      white: "#FEFEFE",
       transparent: "rgba(255, 255, 255, 0)",
     },
 
