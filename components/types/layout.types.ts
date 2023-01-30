@@ -5,5 +5,5 @@
 export type TypeLayout = {
   title: string;
   metadescription: string;
-  children: JSX.Element;
+  children?: any;
 };

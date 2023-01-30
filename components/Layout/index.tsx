@@ -4,6 +4,7 @@
 
 import Head from "next/head";
 import { TypeLayout } from "components/types/layout.types";
+import Navbar from "components/Navbar";
 
 const index = ({
   title,
@@ -17,7 +18,7 @@ const index = ({
         <meta name="description" content={metadescription} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <nav></nav>
+      <Navbar></Navbar>
       <main>{children}</main>
       <footer></footer>
     </>

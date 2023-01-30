@@ -7,8 +7,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      title: ["Cako", "serif"],
-      text: ["Cardo", "sans-serif"],
+      inter: ["Inter", "sans-serif"],
     },
 
     colors: {

@@ -4,51 +4,47 @@
 
 @layer base {
   @font-face {
-    font-family: "Cako";
-    src: url("/public/fonts/Cako-Black.woff2") format("woff2"),
-      url("/public/fonts/Cako-Black.woff") format("woff");
+    font-family: "Inter";
+    src: url("/public/fonts/Inter-Black.woff2") format("woff2"),
+      url("/public/fonts/Inter-Black.woff") format("woff");
   }
 
-  @font-face {
-    font-family: "Cardo";
-    src: url("/public/fonts/Cardo.woff2") format("woff2"),
-      url("/public/fonts/Cardo.woff") format("woff");
+  /* Font-Familys */
+  h1 {
+    @apply font-inter font-black;
   }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5 {
-    @apply font-title font-black leading-none;
+  h2 {
+    @apply font-inter font-normal;
+  }
+
+  h3 {
+    @apply font-inter font-bold;
   }
 
   p,
   a {
-    @apply font-text font-normal;
+    @apply font-inter font-medium;
   }
 
   span {
-    @apply font-text font-normal;
+    @apply font-inter font-normal;
   }
 
+  /* Font-Sizes */
   h1 {
-    @apply text-5 xl:text-11;
+    @apply text-5 xl:text-12;
   }
 
   h2 {
-    @apply text-4 xl:text-9;
+    @apply text-4 xl:text-11;
   }
 
   h3 {
-    @apply text-3 xl:text-7;
-  }
-
-  h4 {
-    @apply text-3 xl:text-5;
+    @apply text-3 xl:text-11;
   }
 
   p {
-    @apply text-2 xl:text-3;
+    @apply text-2 xl:text-4;
   }
 }

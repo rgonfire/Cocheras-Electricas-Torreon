@@ -10,9 +10,7 @@ const index = (): JSX.Element => {
       <Layout
         title="Cocheras Electricas Torreon"
         metadescription="Los mejores de monterrey"
-      >
-        <h1>Hola mundo</h1>
-      </Layout>
+      ></Layout>
     </>
   );
 };
