@@ -40,7 +40,7 @@ const index = (): JSX.Element => {
   return (
     <Layout
       title="Cocheras Electricas Torreon - Reparacion de cocheras electricas en torreon - Mantenimiento de cocheras electricas en torreon"
-      metadescription="Los mejores de monterrey ahora en torreon coahuila."
+      metadescription="Los mejores ahora en torreon coahuila"
     >
       <Hero
         text="Planificamos. Aplicamos pruebas de control de calidad. Entregamos a tiempo."
