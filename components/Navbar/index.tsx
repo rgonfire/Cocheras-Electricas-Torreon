@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import Button from "components/Button";
+import Button from "components/Button/Index";
 import LeftArrow from "assets/icons/right-arrow-white.svg";
 import NavbarMobile from "components/Navbar/mobile";
 

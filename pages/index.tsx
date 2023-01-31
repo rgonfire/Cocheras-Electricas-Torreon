@@ -2,18 +2,18 @@
  * @description  Pagina home del sitio web.
  */
 
-import Layout from "components/Layout";
-import Hero from "components/Hero";
+import Layout from "components/Layout/Index";
+import Hero from "components/Hero/Iindex";
 import SplashCard from "components/Cards/SplashCard";
 import Huevo from "assets/Images/Iconos/pngs/huevo-min.png";
 import Lombris from "assets/Images/Iconos/pngs/hoja-min.png";
 import Mariposa from "assets/Images/Iconos/pngs/mariposa-min.png";
-import SimpleSection from "components/Sections";
+import SimpleSection from "components/Sections/Index";
 import Image from "next/image";
 import { CATALOGO } from "data/catalogo";
 import { useState } from "react";
 import Car from "assets/Images/Iconos/svgs/car.svg";
-import Button from "components/Button";
+import Button from "components/Button/Index";
 import ArrowRight from "assets/Images/Iconos/svgs/arrowRight_Black.svg";
 import ArrowLeft from "assets/Images/Iconos/svgs/arrowLeft_Black.svg";
 import ArrowRightWhite from "assets/Images/Iconos/svgs/arrowRight_White.svg";

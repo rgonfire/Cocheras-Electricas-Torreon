@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Input from "./Input";
-import Button from "components/Button";
+import Button from "components/Button/Index";
 import ArrowRight from "assets/Images/Iconos/svgs/arrowRight_White.svg";
 import ArrowLeft from "assets/Images/Iconos/svgs/arrowLeft_White.svg";
 

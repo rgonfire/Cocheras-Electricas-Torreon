@@ -4,8 +4,8 @@
 
 import Head from "next/head";
 import { TypeLayout } from "components/types/layout.types";
-import Navbar from "components/Navbar";
-import Footer from "components/Footer";
+import Navbar from "components/Navbar/Index";
+import Footer from "components/Footer/Index";
 
 const index = ({
   title,
