@@ -14,7 +14,8 @@
     @apply font-inter font-black;
   }
 
-  h2 {
+  h2,
+  h4 {
     @apply font-inter font-normal;
   }
 
@@ -33,15 +34,19 @@
 
   /* Font-Sizes */
   h1 {
-    @apply text-5 xl:text-12;
+    @apply text-5 xl:text-12 xl:leading-tight;
   }
 
   h2 {
-    @apply text-4 xl:text-11;
+    @apply text-4 xl:text-11  xl:leading-tight;
   }
 
   h3 {
-    @apply text-3 xl:text-11;
+    @apply text-3 xl:text-9  xl:leading-tight;
+  }
+
+  h4 {
+    @apply text-3 xl:text-6  xl:leading-tight;
   }
 
   p {

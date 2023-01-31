@@ -17,9 +17,9 @@ module.exports = {
       transparent: "rgba(255, 255, 255, 0)",
     },
 
-    // backgroundImage: {
-    //   name: "url('')",
-    // },
+    backgroundImage: {
+      version: "url('../assets/Images/Pictures/pngs/bg-v2.png')",
+    },
 
     fontSize: {
       0: "0px",

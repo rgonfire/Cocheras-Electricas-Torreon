@@ -9,14 +9,14 @@ const index = (): JSX.Element => {
     <>
       <nav className="text-white bg-black hidden z-10 fixed w-screen flex-row justify-between items-center px-8 sm:flex xl:h-8">
         {/* Left side */}
-        <div className="w-1/6">
+        <div>
           <Link href="/" className="font-bold text-3">
             CET
           </Link>
         </div>
 
         {/* Right side */}
-        <div className="w-5/6">
+        <div>
           <ul className="flex flex-row justify-center items-center gap-x-4">
             <li>
               <Link href="#proceso">Proceso</Link>

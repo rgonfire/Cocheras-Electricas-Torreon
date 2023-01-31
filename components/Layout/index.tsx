@@ -5,6 +5,7 @@
 import Head from "next/head";
 import { TypeLayout } from "components/types/layout.types";
 import Navbar from "components/Navbar";
+import Footer from "components/Footer";
 
 const index = ({
   title,
@@ -20,7 +21,7 @@ const index = ({
       </Head>
       <Navbar></Navbar>
       <main>{children}</main>
-      <footer></footer>
+      <Footer></Footer>
     </>
   );
 };
