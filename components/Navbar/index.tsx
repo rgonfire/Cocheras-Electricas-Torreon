@@ -1,10 +1,7 @@
 import Link from "next/link";
-import Image from "next/image";
-import Button from "components/Button/Index";
-import LeftArrow from "assets/icons/right-arrow-white.svg";
-import NavbarMobile from "components/Navbar/mobile";
+import NavbarMobile from "components/Navbar/Mobile";
 
-const index = (): JSX.Element => {
+const Index = (): JSX.Element => {
   return (
     <>
       <nav className="text-white bg-black hidden z-10 fixed w-screen flex-row justify-between items-center px-8 sm:flex xl:h-8">
@@ -36,4 +33,4 @@ const index = (): JSX.Element => {
   );
 };
 
-export default index;
+export default Index;

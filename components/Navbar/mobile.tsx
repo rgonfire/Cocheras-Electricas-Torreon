@@ -4,7 +4,7 @@ import Image from "next/image";
 import Hamburguer from "assets/Images/Iconos/svgs/menu-white.svg";
 import CloseMenu from "assets/Images/Iconos/svgs/close-white.svg";
 
-const mobile = (): JSX.Element => {
+const Mobile = (): JSX.Element => {
   const [active, setActive] = useState(false);
 
   const showMenu = () => {
@@ -63,4 +63,4 @@ const mobile = (): JSX.Element => {
   );
 };
 
-export default mobile;
+export default Mobile;

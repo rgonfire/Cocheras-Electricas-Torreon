@@ -21,7 +21,7 @@ const index = ({
       </Head>
       <Navbar></Navbar>
       <main>{children}</main>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </>
   );
 };

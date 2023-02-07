@@ -50,6 +50,6 @@
   }
 
   p {
-    @apply text-2 xl:text-4;
+    @apply text-3 xl:text-4;
   }
 }

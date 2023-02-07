@@ -4,7 +4,7 @@ import Button from "components/Button/Index";
 import ArrowRight from "assets/Images/Iconos/svgs/arrowRight_White.svg";
 import ArrowLeft from "assets/Images/Iconos/svgs/arrowLeft_White.svg";
 
-const index = (): JSX.Element => {
+const Index = (): JSX.Element => {
   const [formStep, setFormStep] = useState(0);
 
   function nextFormStep() {
@@ -52,4 +52,4 @@ const index = (): JSX.Element => {
   );
 };
 
-export default index;
+export default Index;

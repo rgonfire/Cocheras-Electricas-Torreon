@@ -1,5 +1,5 @@
-import { TypeButton } from "components/types/button.types";
 import Image from "next/image";
+import { TypeButton } from "components/types/button.types";
 
 const getBackgroundColor = (color) => {
   switch (color) {
