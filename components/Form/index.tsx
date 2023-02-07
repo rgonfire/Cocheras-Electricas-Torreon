@@ -1,13 +1,23 @@
+/**
+ * @description Shared form component
+ */
+
 import { useState } from "react";
 import Input from "./Input";
 import Button from "components/Button/Index";
 import ArrowRight from "assets/Images/Iconos/svgs/arrowRight_White.svg";
 import ArrowLeft from "assets/Images/Iconos/svgs/arrowLeft_White.svg";
+import { getVersion } from "utils/general";
 
 const Index = (): JSX.Element => {
   const [formStep, setFormStep] = useState(0);
 
-  function nextFormStep() {
+  /**
+   * @description Si el paso es menor a 6 entonces actualiza el state
+   * @params { string } args - Argumentos
+   * @params { string } extra - Extra config object
+   */
+  function nextFormStep(args, extra) {
     if (formStep < 6) {
       setFormStep((prevState) => prevState + 1);
     }

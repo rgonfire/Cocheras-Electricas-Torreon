@@ -7,7 +7,7 @@ import { TypeLayout } from "components/types/layout.types";
 import Navbar from "components/Navbar/Index";
 import Footer from "components/Footer/Index";
 
-const index = ({
+const Index = ({
   title,
   metadescription,
   children,
@@ -26,4 +26,4 @@ const index = ({
   );
 };
 
-export default index;
+export default Index;

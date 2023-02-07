@@ -25,7 +25,7 @@ const getSize = (size) => {
   }
 };
 
-const index = ({
+const Index = ({
   text,
   iconLeft,
   iconRight,
@@ -50,4 +50,4 @@ const index = ({
   );
 };
 
-export default index;
+export default Index;
