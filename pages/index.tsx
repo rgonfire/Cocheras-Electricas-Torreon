@@ -8,7 +8,7 @@ import Layout from "components/Layout/Index";
 import Hero from "components/Hero/index";
 import SplashCard from "components/Cards/SplashCard";
 import SimpleSection from "components/Sections/Index";
-import Button from "components/Button/Index";
+import Button from "components/Button/Simple";
 import { CATALOGO } from "data/catalogo";
 import Car from "assets/Images/Iconos/svgs/car.svg";
 import ArrowRight from "assets/Images/Iconos/svgs/arrowRight_Black.svg";
