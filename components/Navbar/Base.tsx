@@ -1,5 +1,5 @@
 import Link from "next/link";
-import NavbarMobile from "components/Navbar/Mobile";
+import NavbarMobile from "components/Navbar/MobileV";
 
 const Index = (): JSX.Element => {
   return (
