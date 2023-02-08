@@ -34,22 +34,22 @@
 
   /* Font-Sizes */
   h1 {
-    @apply text-5 xl:text-12 xl:leading-tight;
+    @apply text-5 md:text-9 xl:text-12 xl:leading-tight;
   }
 
   h2 {
-    @apply text-4 xl:text-11  xl:leading-tight;
+    @apply text-4 md:text-8 xl:text-11  xl:leading-tight;
   }
 
   h3 {
-    @apply text-3 xl:text-9  xl:leading-tight;
+    @apply text-5 md:text-7 xl:text-9  xl:leading-tight;
   }
 
   h4 {
-    @apply text-3 xl:text-6  xl:leading-tight;
+    @apply text-3 md:text-5 xl:text-6  xl:leading-tight;
   }
 
   p {
-    @apply text-3 xl:text-4;
+    @apply text-3 md:text-4;
   }
 }

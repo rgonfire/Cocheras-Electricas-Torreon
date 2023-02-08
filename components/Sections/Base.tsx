@@ -25,7 +25,7 @@ const SimpleSection = ({
     <div
       className={`${getBackgroundColor(
         color
-      )} flex flex-col gap-y-2 px-40 py-15 h-screen`}
+      )} flex flex-col gap-y-2 px-6 md:px-8 py-24 xl:px-40 xl:py-15 xl:h-screen`}
     >
       <p className="underline">{subtitle}</p>
       <h2>{title}</h2>

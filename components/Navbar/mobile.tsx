@@ -36,7 +36,7 @@ const Mobile = (): JSX.Element => {
       <div
         className={
           active
-            ? "bg-black z-10 h-2/5 flex flex-col text-white justify-center fixed inset-0"
+            ? "bg-black z-10 h-5/5 flex flex-col border-6 border-white text-white justify-center fixed inset-0"
             : "hidden"
         }
       >

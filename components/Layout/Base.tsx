@@ -1,11 +1,11 @@
 /**
- * @description  Esqueleto de cualquier pagina web del sitio.
+ * @description  Esqueleto de cualquier pagina del sitio.
  */
 
 import Head from "next/head";
 import { TypeLayout } from "components/types/layout.types";
-import Navbar from "components/Navbar/Index";
-import Footer from "components/Footer/Index";
+import Navbar from "components/Navbar/Base";
+import Footer from "components/Footer/Base";
 
 const Index = ({
   title,
@@ -21,7 +21,7 @@ const Index = ({
       </Head>
       <Navbar></Navbar>
       <main>{children}</main>
-      {/* <Footer></Footer> */}
+      <Footer></Footer>
     </>
   );
 };

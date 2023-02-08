@@ -7,7 +7,6 @@ import Input from "./Input";
 import Button from "components/Button/Simple";
 import ArrowRight from "assets/Images/Iconos/svgs/arrowRight_White.svg";
 import ArrowLeft from "assets/Images/Iconos/svgs/arrowLeft_White.svg";
-import { getVersion } from "utils/general";
 
 const Index = (): JSX.Element => {
   const [formStep, setFormStep] = useState(0);

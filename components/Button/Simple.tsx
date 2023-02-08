@@ -17,11 +17,11 @@ const getBackgroundColor = (color) => {
 const getSize = (size) => {
   switch (size) {
     case "normal":
-      return "w-33 h-6";
+      return "w-33 h-7 md:w-50 md:h-9";
     case "small":
-      return "w-16 h-4";
+      return "w-12 h-3 md:w-16 md:h-4";
     default:
-      return "w-33 h-6";
+      return "w-33 h-7 md:w-50 md:h-9";
   }
 };
 

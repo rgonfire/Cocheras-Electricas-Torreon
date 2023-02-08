@@ -7,5 +7,5 @@ export type TypeButton = {
   disabled?: boolean;
   onClick?: any;
   color: "black" | "white" | "green";
-  size: "default" | "small";
+  size: "default" | "small" | "normal";
 };
