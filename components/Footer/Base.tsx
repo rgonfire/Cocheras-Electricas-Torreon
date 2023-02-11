@@ -5,7 +5,7 @@
 const Index = (): JSX.Element => {
   return (
     <footer className="py-10 bg-black">
-      <div className="px-10 gap-x-10 text-white md:gap-y-2 flex flex-col flex-wrap md:flex-row justify-left items-left">
+      <div className="px-6 md:px-10 gap-x-10 text-white md:gap-y-2 flex flex-col flex-wrap md:flex-row justify-left items-left">
         <div>
           <h3>Horario:</h3>
           <p className="underline">Lunes a sabado de 9:00 - 19:00</p>
